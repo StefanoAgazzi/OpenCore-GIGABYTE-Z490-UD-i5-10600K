@@ -1,0 +1,7 @@
+*.txt
+/.fseventsd/fseventsd-uuid
+/EFI/.DS_Store
+/EFI/._.DS_Store
+/EFI/OC/._config.plist
+/EFI/OC/Drivers/._OpenCanopy.efi
+/EFI/OC/Resources/._Image
