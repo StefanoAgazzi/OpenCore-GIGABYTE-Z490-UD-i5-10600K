@@ -28,3 +28,5 @@ Temporary Items
 
 # OpenCore log files
 *.txt
+
+.idea
