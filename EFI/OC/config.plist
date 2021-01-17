@@ -241,6 +241,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+            <dict>
+                <key>BundlePath</key>
+                <string>WhateverGreen.kext</string>
+                <key>Comment</key>
+                <string></string>
+                <key>Enabled</key>
+                <true/>
+                <key>ExecutablePath</key>
+                <string>Contents/MacOS/WhateverGreen</string>
+                <key>Arch</key>
+                <string>Any</string>
+                <key>MaxKernel</key>
+                <string></string>
+                <key>MinKernel</key>
+                <string></string>
+                <key>PlistPath</key>
+                <string>Contents/Info.plist</string>
+            </dict>
 			<dict>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
@@ -297,6 +315,24 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -330,42 +366,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -965,8 +965,8 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
+			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1110,8 +1110,6 @@
 				<data>AwDImw==</data>
 				<key>model</key>
 				<string>Radeon RX 580 4 GB</string>
-				<key>shikigva</key>
-				<integer>128</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
