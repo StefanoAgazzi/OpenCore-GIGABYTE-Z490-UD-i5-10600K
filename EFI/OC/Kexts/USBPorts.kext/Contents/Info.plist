@@ -55,7 +55,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS01</string>
 						<key>port</key>
@@ -63,21 +63,10 @@
 						AQAAAA==
 						</data>
 					</dict>
-					<key>HS02</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>HS02</string>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-					</dict>
 					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS05</string>
 						<key>port</key>
@@ -88,7 +77,7 @@
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS06</string>
 						<key>port</key>
@@ -99,7 +88,7 @@
 					<key>HS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS07</string>
 						<key>port</key>
@@ -110,7 +99,7 @@
 					<key>HS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS08</string>
 						<key>port</key>
@@ -127,6 +116,17 @@
 						<key>port</key>
 						<data>
 						CgAAAA==
+						</data>
+					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS11</string>
+						<key>port</key>
+						<data>
+						CwAAAA==
 						</data>
 					</dict>
 					<key>HS12</key>
@@ -160,17 +160,6 @@
 						<key>port</key>
 						<data>
 						EQAAAA==
-						</data>
-					</dict>
-					<key>SS02</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS02</string>
-						<key>port</key>
-						<data>
-						EgAAAA==
 						</data>
 					</dict>
 					<key>SS05</key>
@@ -219,6 +208,42 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>iMac20,1</string>
+		</dict>
+		<key>iMac20,1-XHC-internal-hub</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<key>IOClass</key>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSB20InternalHub</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>port-count</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>ports</key>
+				<dict>
+					<key>XX03</key>
+					<dict>
+						<key>name</key>
+						<string>XX03</string>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+						<key>portType</key>
+						<integer>255</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>locationID</key>
+			<integer>348127232</integer>
 			<key>model</key>
 			<string>iMac20,1</string>
 		</dict>

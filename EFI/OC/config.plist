@@ -903,7 +903,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02047403QXJG36A8</string>
+			<string>C02048303GUPHCDCB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -911,11 +911,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DQ0JWHX87</string>
+			<string>C02DR9YVPN5T</string>
 			<key>SystemUUID</key>
-			<string>04A87663-8C6A-467B-B5DC-B1DA0EC26589</string>
+			<string>E592A965-4E9E-432B-9D43-7B224957065D</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
