@@ -55,8 +55,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
-            <key>SyncTableIds</key>
-            <false/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -329,8 +329,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
-            <key>ProvideCurrentCpuInfo</key>
-            <false/>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -340,8 +340,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
-            <key>CustomKernel</key>
-            <false/>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<false/>
 			<key>KernelArch</key>
@@ -367,15 +367,15 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -410,26 +410,26 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-            <key>AllowToggleSip</key>
-            <false/>
+			<key>AllowToggleSip</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
-			<false/>
+			<true/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>qwl/1Webnu+IiXQARpwG4044Q6ahvo2T0yNQSwwCS2RMffsMIq3l8htorZC67KMUIp6jT7xYkfnclP8wJZQSmQ==</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>vbypzkaCDuqoG+I/s4Ti0Q==</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -449,7 +449,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
-                <string>OpenShell:UEFIShell:Shell</string>
+				<string>OpenShell:UEFIShell:Shell</string>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -730,8 +730,8 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
-            <key>AdviseFeatures</key>
-            <false/>
+			<key>AdviseFeatures</key>
+			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
@@ -789,8 +789,8 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
-            <key>GraphicsInputMirroring</key>
-            <true/>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -880,8 +880,8 @@
 			<false/>
 			<key>AppleDebugLog</key>
 			<false/>
-            <key>AppleEg2Info</key>
-            <false/>
+			<key>AppleEg2Info</key>
+			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
@@ -903,7 +903,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
