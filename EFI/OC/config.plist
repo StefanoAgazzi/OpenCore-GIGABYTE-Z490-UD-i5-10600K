@@ -139,7 +139,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.8 | Patch engine</string>
+                    <string>V1.5.9 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -175,7 +175,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.5</string>
+                    <string>V1.5.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -193,7 +193,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.7 | Audio patches</string>
+                    <string>V1.6.8 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -211,7 +211,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.0d7</string>
+                    <string>V2.4.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
